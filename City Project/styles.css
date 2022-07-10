@@ -1,0 +1,83 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Kanit', sans-serif;
+   
+}
+
+#hero {
+    background-image: url("images/background2.jpeg");
+    background-size: cover;
+    padding: 180px;  
+    color: white;
+}
+
+h1 {
+    margin: 50px 0;
+    background-color: #ee6c4d;
+    width: 250px;
+    margin: 50px auto;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-shadow: 0 0 2px black;
+}
+
+
+h2 {
+    margin: 50px 0;
+    background-color: #98c1d9;
+    width: 600px;
+    margin: auto;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-shadow: 0 0 2px black;
+    
+}
+
+#mid {
+    background-color:#e0fbfc;
+    padding: 50px 70px;
+}
+
+
+#activ {
+    display: flex;
+    justify-content:space-around;
+    background-color:#e0fbfc;
+    padding: 50px 70px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#guide {
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    margin: 50px auto;
+    background-color: #293241;
+    color: white;
+    padding: 50px 90px;
+    border-radius: 10px;
+}
+
+#profile-descr {
+    margin: 25px;
+}
+
+
